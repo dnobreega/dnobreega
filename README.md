@@ -47,4 +47,4 @@
 
 ---
 
-✨ *Improving a little every day on my journey in tech!*
+ *Improving a little every day on my journey in tech!*
