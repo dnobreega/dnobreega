@@ -1,6 +1,6 @@
 #  Hi, I'm Nóbrega
 
-🎓 Student of "Desenvolvimento de Sistemas".  
+🎓 Estudante de Desenvolvimento de Sistemas  
 🏫 SESI / SENAI  
 📍 São Paulo - Brasil 🇧🇷  
 
@@ -12,7 +12,7 @@
 ## 🛠️ Technologies & Tools
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Database](https://img.shields.io/badge/Database-003B57?style=for-the-badge&logo=databricks&logoColor=white)
 
@@ -20,15 +20,15 @@
 
 ## 📊 GitHub Stats
 
-![Stats](https://github-readme-stats.vercel.app/api?username=SEU_USERNAME&show_icons=true&theme=tokyonight)
+![Stats](https://github-readme-stats.vercel.app/api?username=dnobreega&show_icons=true&theme=tokyonight)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USERNAME&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dnobreega&layout=compact&theme=tokyonight)
 
 ---
 
 ## 🐍 Contribution Snake
 
-![Snake animation](https://github.com/SEU_USERNAME/SEU_USERNAME/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://github.com/dnobreega/dnobreega/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
