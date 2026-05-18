@@ -1,0 +1,261 @@
+'<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #cfcfcf;
+        }
+
+        main {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #002c8b, #00cbbd);
+            color: #fff;
+            padding: 60px 20px;
+            border-radius: 25px;
+            text-align: center;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+    <title>Aprendendo a usar o Bootstrap.</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand">Site SENAI</a>
+            <button 
+                        class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#menuPrincipal">
+                        <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#inicio" class="nav-link active">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#recursos" class="nav-link active">Recursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contato" class="nav-link active">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main  class="container">
+        <section id="inicio" class="banner mb-5">
+            <h1 class="display-5 fw-bold">Aprendendo Bootstrap</h1>
+            <p class="lead">Um site simples usando essa tecnologia.</p>
+            <a href="#recursos" class="btn btn-light btn-lg">Ver Exemplos</a>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Exemplo de Carrosel.</h2>
+            <div 
+            id="carroselExemplo" 
+            class="carousel slide" 
+            data-bs-ride="carousel">
+
+                        <div class="carousel-indicators">
+                            <button 
+                                type="button" 
+                                data-bs-target="#carroselExemplo" 
+                                data-bs-slide-to="0" 
+                                class="active" 
+                                aria-current="true" 
+                                aria-label="Slide 1">
+                            </button>
+
+                            <button
+                                type="button"
+                                data-bs-target="#carroselExemplo"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2">
+                            </button>
+
+                            <button
+                                type="button"
+                                data-bs-target="#carroselExemplo"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3">
+                            </button>
+
+                        </div>
+
+                        <div class="carousel-inner rounded-4 shadow">
+                            <div class="carousel-item active">
+                                <img 
+                                    src="https://i.ytimg.com/vi/yfLE7zHVjYY/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLBkAHy8Zh6fEB4g4JyzNZ5OA0qnUg&usqp=CCk" class="d-block w-100 carousel-img">
+
+                                <div
+                                    class="carousel-caption d-none d-md-block">
+                                        <h5>You got a Friend in me.</h5>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <img 
+                                    src="https://external-preview.redd.it/thanks-i-hate-this-dababy-animation-credit-meatcanyon-v0-U_Vaqa0kzRU7T41v3AMy9czzXXn3Aa-FacRKAa--WjU.png?auto=webp&s=04de4ab18733b972a7abbce2026b5a6861d95cc4" class="d-block w-100 carousel-img">
+
+                                <div
+                                    class="carousel-caption d-none d-md-block">
+                                    <h5>MeatCanyon</h5>
+                                        <p>Dababy</p>
+                                </div>
+
+                            </div>
+                            <div class="carousel-item">
+                                <img 
+                                    src="https://static.wikia.nocookie.net/villainsfanon/images/9/93/MeatCanyonBeast.webp/revision/latest?cb=20230603211710" class="d-block w-100 carousel-img">
+
+                                <div 
+                                    class="carousel-caption d-none d-md-block">
+                                     <h5>Misti Besti</h5>
+                                         <p>Mani</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div 
+            class="alert alert-primary"
+            role="alert"
+        >
+        Pavolin Gay
+        </div>
+
+        <section 
+            id="recursos"
+            class="mb-5">
+                <h2 
+                    class="text-center mb4 fw-bold">
+                        Principais Recursos
+                </h2>
+                <div
+                    class="row g-4">
+                        <div
+                            class="col-md-4">
+                                <div
+                                    class="card h-100">
+                                        <div 
+                                            class="card-body">
+                                                <h5 
+                                                    class="card-title text-center">
+                                                        Corinthians
+                                                </h5>
+                                                <p 
+                                                    class="card-text text-center">
+                                                        O pai do São Paulo
+                                                </p>
+                                                <a 
+                                                    href="#" 
+                                                    class="btn btn-primary">
+                                                    Link
+                                                </a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div
+                            class="col-md-4">
+                                <div
+                                    class="card h-100">
+                                        <div 
+                                            class="card-body">
+                                                <h5 
+                                                    class="card-title text-center">
+                                                        Corinthians
+                                                </h5>
+                                                <p 
+                                                    class="card-text text-center">
+                                                        O pai do São Paulo
+                                                </p>
+                                                <a 
+                                                    href="#" 
+                                                    class="btn btn-primary">
+                                                    Link
+                                                </a>
+                                        </div>
+                                </div>
+                        </div>
+                        <div
+                            class="col-md-4">
+                                <div
+                                    class="card h-100">
+                                        <div 
+                                            class="card-body">
+                                                <h5 
+                                                    class="card-title text-center">
+                                                        Corinthians
+                                                </h5>
+                                                <p 
+                                                    class="card-text text-center">
+                                                        O pai do São Paulo
+                                                </p>
+                                                <a 
+                                                    href="#" 
+                                                    class="btn btn-primary">
+                                                    Link
+                                                </a>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+        </section>
+
+        <section
+            class="mb-5">
+                <h2
+                    class="text-center mb-4 fw-bold">
+                        Exemplo de Botões
+                </h2>
+
+                <div 
+                    class="text-center">
+                        <button 
+                            class="btn btn-primary">
+                                Primary
+                        </button>
+                        <button 
+                            class="btn btn-success">
+                                Success
+                        </button>
+                        <button 
+                            class="btn btn-warning">
+                                Warning
+                        </button>
+                        <button 
+                            class="btn btn-danger">
+                                Danger
+                        </button>
+                        <button 
+                            class="btn btn-outline-primary">
+                                Outline
+                        </button>
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p
+            class="mb-0">
+                Página de exemplo
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>'

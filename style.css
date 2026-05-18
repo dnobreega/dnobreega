@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 500vh;
+    background-color: #000;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+header{
+    width: 100%;
+    padding: 60px 4%;/* afastar o topo e laterais*/
+    position: fixed;/*mantem o manu sempre visivel*/
+    top:0; /* diz ao navegador para colar a  parte superior da tela o menu*/
+    left:0;/*garante que ele fique acima de outros elementos*/
+    z-index:1000;/*garante q ele fique acima de outros elementos*/
+    transition:.5s;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header i {
+    font-size: 30px;
+    color: white;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+.btn-contato button{
+    width:120px ;
+    height: 40px;
+    border: 0;
+    background-color: #fe775a;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* classe qeu seá adicionada pela JavaScript quando rolar a tela*/
+
+header.rolagem{
+
+    background-color: #ffaf80;
+    padding: 20px 4%;/*diminui a altura do menu ao rolar*/
+}
+/* altera a cor do menu e do ícone ao rolar*/
+header.rolagem a, 
+header.rolagem i{
+
+    color: #5e3347;
+}
+
+.banner{
+    height: 100vh;
+    background-image: url(img/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+/*centralizar o texto no meio do banner*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+ .banner h1{
+    font-size: 64px;
+    color: #fff;
+    text-align: center;
+ }
+ .banner h1 span{
+    color:#ffae81;
+ }
+
+ .faq-container{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffae81;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+ }
+
+ .faq-container h1{
+
+    text-align: center;
+    color: #5e3347;
+    margin-bottom: 20px;
+ }
+
+ details{
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+ }
+
+ summary{
+    font-weight: bold;
+    cursor:pointer;
+    color:#5e3347;
+    list-style: none;
+ }
+
+ /*pseudo elemento - cria a estabilização sem a necessidade de classes*/
+ summary::marker{
+
+    display: none;
+
+ }
+
+ /*adicionar o simbolo "+" antes do texto*/
+ summary::before{
+    content: '+';
+    font-size: 18px;
+    color: #5e3347;
+ }
+
+ /* Trocar para "_" quando detail estiver aberto*/
+ details[open] summary::before{
+    content: '-';
+ }
+
+ details p{
+    margin: 8px 0 0 18px;
+    color: #333;
+    font-size: 16px;
+ }
